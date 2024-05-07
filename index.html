@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="home">
+        <div class="bg">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.2.5/build/spline-viewer.js"></script>
+<spline-viewer url="https://prod.spline.design/n5NqMMXMxqnG2Dhl/scene.splinecode"></spline-viewer>
+        </div>
+        <div class="scroldown">
+
+        </div>
+    </section>
+
+
+
+    <script>
+        window.onload = function() {
+            var shadowRoot = document.querySelector('spline-viewer').shadowRoot;
+            shadowRoot.querySelector('#logo').remove();
+        }
+    </script>
+</body>
+</html>

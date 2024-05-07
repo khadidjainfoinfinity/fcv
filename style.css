@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+div.bg{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+div.scroldown{
+    position: absolute;
+    z-index: 100;
+    width: 100px;
+    height: 100px;
+    bottom: 10vw;
+    right: 10vw;
+    background: #c02727;
+}
